@@ -1,0 +1,212 @@
+{
+  "domain": "Personal Finance and Budgeting Helper",
+  "version": "1.0",
+  "author": "Student Project",
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hello",
+        "hi",
+        "hey",
+        "salam",
+        "assalam o alaikum",
+        "aoa",
+        "good morning",
+        "good afternoon",
+        "good evening",
+        "kese ho",
+        "kaise ho",
+        "how are you"
+      ],
+      "responses": [
+        "Walaikum Assalam / Hello! 😊 I am your Personal Finance and Budgeting Assistant. How can I help you manage your money, savings, or budget today?",
+        "Hello! 👋 Welcome to your personal finance helper. Ask me about budget planning, 50/30/20 rule, emergency funds, or track your income and expenses!",
+        "Hi there! 💼 I am here to assist you with budgeting, cutting expenses, and building wealth. What financial question do you have today?"
+      ]
+    },
+    {
+      "tag": "farewell",
+      "patterns": [
+        "bye",
+        "goodbye",
+        "see you",
+        "allah hafiz",
+        "khuda hafiz",
+        "alvida",
+        "take care",
+        "exit",
+        "quit"
+      ],
+      "responses": [
+        "Allah Hafiz! 👋 Remember to stay disciplined with your savings and track every expense. Have a great day!",
+        "Goodbye! Keep your savings growing and stick to your budget. Feel free to come back whenever you need financial advice!",
+        "Khuda Hafiz! Best of luck with your personal financial goals. See you soon!"
+      ]
+    },
+    {
+      "tag": "gratitude",
+      "patterns": [
+        "thank you",
+        "thanks",
+        "shukriya",
+        "shukria",
+        "thx",
+        "thank you so much",
+        "jazakallah",
+        "great advice",
+        "helpful"
+      ],
+      "responses": [
+        "You are very welcome! 😊 Always happy to help you make smarter financial decisions.",
+        "Glad I could help! Remember, consistency is the key to financial independence. Let me know if you need anything else.",
+        "Shukriya! Feel free to ask more questions about saving, investing, or budgeting anytime."
+      ]
+    },
+    {
+      "tag": "salary_saving_50k",
+      "patterns": [
+        "How much should I save from a 50,000 salary?",
+        "how much should i save from 50000 salary",
+        "saving from 50k salary",
+        "50000 salary budget",
+        "how to budget 50000 salary",
+        "50000 salary me kitna bachana chahiye",
+        "50k salary distribution"
+      ],
+      "responses": [
+        "💡 **Recommended Budget for a Rs. 50,000 Salary (50/30/20 Rule):**\n\n1. **Needs (50% = Rs. 25,000):** Rent, groceries, utility bills, and transport.\n2. **Wants (30% = Rs. 15,000):** Dining out, shopping, entertainment, and personal hobbies.\n3. **Savings & Debt (20% = Rs. 10,000):** Emergency fund or savings account.\n\n*Pro Tip:* Try to save at least **Rs. 10,000 to Rs. 15,000** (20% to 30%) every month as soon as your salary is credited before spending on non-essentials!"
+      ]
+    },
+    {
+      "tag": "rule_50_30_20",
+      "patterns": [
+        "what is the 50/30/20 rule",
+        "explain 50 30 20 rule",
+        "how does 50 30 20 budget work",
+        "50 30 20 formula",
+        "what is 50 30 20",
+        "rule of 50 30 20"
+      ],
+      "responses": [
+        "📊 **The 50/30/20 Budgeting Rule:**\n\n• **50% for Needs:** Essential expenses you cannot avoid (rent, basic groceries, utilities, commute, medicines).\n• **30% for Wants:** Lifestyle choices that improve quality of life (dining out, streaming subscriptions, clothing, vacations).\n• **20% for Savings & Debt Payoff:** Emergency funds, retirement accounts, investments, or clearing high-interest loans.\n\nIt is one of the simplest, most effective frameworks to prevent overspending without feeling deprived!"
+      ]
+    },
+    {
+      "tag": "emergency_fund",
+      "patterns": [
+        "what is an emergency fund",
+        "how to build emergency fund",
+        "how much emergency fund do i need",
+        "why is emergency fund important",
+        "emergency savings guide",
+        "emergency fund kitna hona chahiye"
+      ],
+      "responses": [
+        "🛡️ **Emergency Fund Essentials:**\n\n• **Target Size:** Aim for **3 to 6 months of mandatory living expenses** (e.g., if monthly basic living costs are Rs. 40,000, your target is Rs. 120,000 to Rs. 240,000).\n• **Where to keep it:** In a separate, highly liquid savings account or money market mutual fund (not in locked assets or speculative stocks).\n• **Purpose:** Medical emergencies, unexpected vehicle repairs, or sudden job loss without going into debt."
+      ]
+    },
+    {
+      "tag": "how_to_track_expenses",
+      "patterns": [
+        "how to track expenses",
+        "how can i track my daily spending",
+        "best way to monitor expenses",
+        "how to start expense tracking",
+        "daily kharche kaise track karein"
+      ],
+      "responses": [
+        "📝 **Effective Expense Tracking in 4 Steps:**\n\n1. **Log Every Purchase:** Record every rupee immediately, whether through this app or a digital ledger.\n2. **Categorize Your Spend:** Divide into Food, Transport, Utilities, Shopping, and Miscellaneous.\n3. **Review Weekly:** Check if any category is exceeding your allocated percentage.\n4. **Identify Leakages:** Micro-expenses (daily teas, snacks, unread subscriptions) often add up to 10-15% of monthly income!"
+      ]
+    },
+    {
+      "tag": "cut_expenses",
+      "patterns": [
+        "how to cut expenses",
+        "how to reduce spending",
+        "how can i save money fast",
+        "ways to reduce monthly costs",
+        "spending kam kaise karein",
+        "tips to cut budget"
+      ],
+      "responses": [
+        "✂️ **Actionable Ways to Slash Monthly Costs:**\n\n1. **Audit Subscriptions:** Cancel streaming or memberships you haven't used in the past 30 days.\n2. **Cook at Home:** Dining out and delivery apps often inflate food budgets by 2x to 3x.\n3. **Use the 24-Hour Rule:** Wait 24 hours before making any impulse purchase over Rs. 2,000.\n4. **Electricity & Utility Conservation:** Switch off phantom appliances and optimize peak-hour electricity usage."
+      ]
+    },
+    {
+      "tag": "debt_payoff",
+      "patterns": [
+        "how to pay off debt",
+        "debt payoff methods",
+        "avalanche vs snowball",
+        "how to get rid of credit card debt",
+        "qarz kaise utarein",
+        "best debt strategy"
+      ],
+      "responses": [
+        "💳 **Two Proven Debt Payoff Strategies:**\n\n1. **Debt Avalanche (Mathematically Superior):** Pay minimums on all debts, then put all extra cash towards the debt with the **highest interest rate**. Saves the most money in interest.\n2. **Debt Snowball (Psychologically Motivating):** Pay minimums on all, and put extra cash towards the **smallest balance first**. Gives quick psychological wins.\n\n*Rule #1:* Stop accumulating new high-interest debt while paying off existing balances!"
+      ]
+    },
+    {
+      "tag": "investing_beginners",
+      "patterns": [
+        "how to invest for beginners",
+        "where to invest money in pakistan",
+        "how to start investing",
+        "best investment options",
+        "investment tips for students",
+        "paise kahan invest karein"
+      ],
+      "responses": [
+        "📈 **Beginner Investment Roadmap:**\n\n1. **Clear High-Interest Debt First:** Paying off 25%+ interest debt is a guaranteed return.\n2. **Emergency Buffer:** Secure 3 months of emergency expenses before investing in volatile markets.\n3. **Low-Risk Options:** High-yield savings accounts or National Savings schemes.\n4. **Mutual Funds & Index Funds:** Mutual funds managed by registered asset management companies, or PSX index funds (KSE-100/KMI-30).\n5. **Gold / Physical Hedges:** 5-10% in gold for inflation protection.\n\n*Golden Rule:* Never invest money you will need in less than 2 to 3 years into high-risk assets!"
+      ]
+    },
+    {
+      "tag": "rent_budget",
+      "patterns": [
+        "how much should i spend on rent",
+        "rent rule of thumb",
+        "what percentage of salary for rent",
+        "rent kitna hona chahiye",
+        "housing budget limit"
+      ],
+      "responses": [
+        "🏠 **Housing & Rent Guideline (The 30% Rule):**\n\nYour rent and basic housing utilities should ideally not exceed **30% of your net take-home salary**.\n\n• For Rs. 50,000 salary: Rent should be under Rs. 15,000.\n• For Rs. 100,000 salary: Rent should be under Rs. 30,000.\n\nExceeding 35-40% on rent puts significant pressure on your ability to save and invest."
+      ]
+    },
+    {
+      "tag": "savings_ratio",
+      "patterns": [
+        "what is savings ratio",
+        "how to calculate savings ratio",
+        "savings rate formula",
+        "what is a good savings rate",
+        "savings ratio formula"
+      ],
+      "responses": [
+        "🧮 **Savings Ratio Formula:**\n\n`Savings Ratio (%) = ((Total Income - Total Expenses) / Total Income) * 100`\n\n• **< 10%:** Vulnerable (low financial safety buffer)\n• **10% - 20%:** Fair / Standard baseline\n• **20% - 30%:** Healthy and disciplined\n• **> 30%:** Elite wealth accumulator\n\nAim to push your savings ratio by 1-2% higher every quarter!"
+      ]
+    },
+    {
+      "tag": "about_bot",
+      "patterns": [
+        "who are you",
+        "what are you",
+        "what can you do",
+        "tell me about yourself",
+        "introduce yourself",
+        "help me",
+        "tum kon ho",
+        "kya kar sakte ho"
+      ],
+      "responses": [
+        "I am **BudgetBot** 💼, an intelligent domain-specific Personal Finance and Budgeting Chatbot created for the Python Mid-Project.\n\nI can:\n• Answer financial planning & budgeting questions\n• Calculate savings allocations (e.g., for Rs. 50,000 salary)\n• Explain financial rules (50/30/20, emergency funds, debt management)\n• Log income and expenses into an SQLite database\n• Monitor budget thresholds with 80% and 100% warnings\n• Provide personalized savings advice based on your real cash flow!"
+      ]
+    }
+  ],
+  "fallback_responses": [
+    "I am sorry, I did not understand that. Could you please rephrase your question? You can ask me about budgeting rules, salary savings, emergency funds, or expense tracking.",
+    "I'm tuned specifically for Personal Finance and Budgeting. I didn't quite catch that query. Try asking: 'How much should I save from a 50,000 salary?' or 'What is the 50/30/20 rule?'",
+    "Hmm, I'm not sure about that specific topic. As a financial assistant, I can help you with saving strategies, expense reduction, or budget management. What would you like help with?"
+  ]
+}

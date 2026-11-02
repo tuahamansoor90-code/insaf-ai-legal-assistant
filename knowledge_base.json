@@ -1,0 +1,278 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hello",
+        "hi",
+        "hey",
+        "assalam o alaikum",
+        "salam",
+        "aaoa",
+        "kese ho",
+        "hello bot",
+        "good morning",
+        "good evening",
+        "adab"
+      ],
+      "responses": [
+        "Walaikum Assalam! Welcome to InsafAI (Legal & Citizen Rights Assistant). Aap Pakistan ke Consumer Rights, FIA Cybercrime, Tenant Laws, ya Citizen Rights ke mutaliq sawal pooch sakte hain. Main aapki kya madad kar sakta hoon?",
+        "Assalam-o-Alaikum! Main InsafAI hoon — Pakistan Citizen Rights aur Consumer Law advisor. How can I assist you today with your legal queries?"
+      ],
+      "category": "General"
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye",
+        "goodbye",
+        "allah hafiz",
+        "khuda hafiz",
+        "see you",
+        "shukriya",
+        "thank you",
+        "thanks for help",
+        "bohot shukriya"
+      ],
+      "responses": [
+        "Allah Hafiz! Apne haqooq janiye aur ba-ikhtiyar rahiye (Know your rights and stay empowered). Koi mazeed rehnumai chahiye ho toh dobara zaroor aaiye!",
+        "You are most welcome! Agar aapko kabhi bhi consumer ya legal guidance chahiye ho, InsafAI hamesha hazir hai. Take care!"
+      ],
+      "category": "General"
+    },
+    {
+      "tag": "identity_and_capabilities",
+      "patterns": [
+        "who are you",
+        "tum kaun ho",
+        "what can you do",
+        "kya madad kar sakte ho",
+        "help me",
+        "features",
+        "menu",
+        "guide me",
+        "what is your purpose"
+      ],
+      "responses": [
+        "Main **InsafAI** hoon — ek intelligent Citizen Rights aur Legal Awareness Chatbot jo aam shehriyon ko Pakistani qawaneen aasan alfaz me samajhata hai. Main in topics par rehnumai karta hoon:\n1. 🛡️ **Cybercrime & Online Scams** (FIA NR3C reporting under PECA 2016)\n2. 🛒 **Consumer Court & Fraud Sellers** (Defective product refund, 15-day legal notice)\n3. 🏠 **Tenant & Landlord Laws** (Security deposit, notice period, illegal eviction)\n4. 🚦 **Traffic Rules & E-Challan** (Challan verification, police rights)\n5. ⚖️ **Citizen Arrest & Police Rights** (FIR rights, 24-hour magistrate rule)\n6. 📞 **Official Emergency Helplines & Portals**."
+      ],
+      "category": "General"
+    },
+    {
+      "tag": "cybercrime_online_fraud",
+      "patterns": [
+        "online fraud ho gaya",
+        "online scam",
+        "fake daraz seller",
+        "bank account se paisay kat gaye",
+        "otp fraud",
+        "easypaisa fraud",
+        "jazzcash scam",
+        "fake lottery message",
+        "money deducted without permission",
+        "someone cheated me online"
+      ],
+      "responses": [
+        "Agar aapke saath **Online Financial Fraud** hua hai (bank account, EasyPaisa, ya JazzCash scam), foran yeh iqdaam karein:\n\n1. **Bank / Wallet Helpline par Call Karein (Within 1 Hour):** Apne bank ya wallet ko call kar ke transaction block karwayen aur reference number lein.\n2. **Evidence Collect Karein:** Transaction ID, bank SMS/receipt, scammer ka phone number, aur WhatsApp chat screenshots mehfooz karein.\n3. **FIA NR3C me Complaint File Karein:** Under PECA Act 2016, online complaint portal **https://complaints.fia.gov.pk** par report darj karein ya helpline **1991** par call karein.\n4. **State Bank Portal:** Agar bank 48 hours me madad na kare, toh State Bank of Pakistan ke *Sunwai* portal par bank ke khilaaf complaint darj karein."
+      ],
+      "category": "Cybercrime"
+    },
+    {
+      "tag": "cybercrime_harassment_blackmail",
+      "patterns": [
+        "someone is blackmailing me",
+        "blackmail ho raha hoon",
+        "pictures leaked",
+        "fake profile created",
+        "cyber harassment",
+        "harassment on whatsapp",
+        "unauthorized photos shared",
+        "facebook fake account",
+        "character assassination online",
+        "threats on social media"
+      ],
+      "responses": [
+        "⚠️ **Online Harassment aur Blackmailing** Pakistan me **PECA Act 2016 (Sections 20, 21, 24)** ke tehat ek sangeen ghair-zamanati jurm hai (up to 5 years imprisonment):\n\n1. **Blackmailer ko payment na dein:** Paison ya demands ko poora karne se blackmailing band nahi hoti.\n2. **Proof Mehfooz Karein:** Chat screenshots, profile links, phone numbers, aur voice notes ka backup lein. Chat delete mat karein.\n3. **FIA Cyber Crime Cell (NR3C):**\n   - Helpline: **1991** (24/7 Active)\n   - Online Portal: **complaints.fia.gov.pk**\n   - Physical Reporting: Apne shehar ke FIA Cyber Crime Reporting Center tashreef le jayen.\n4. **Khawateen ke liye Special Help:** Female victims ke liye FIA me female investigation officers aur dedicated help desks mojood hain jahan mukammal privacy rakhi jaati hai."
+      ],
+      "category": "Cybercrime"
+    },
+    {
+      "tag": "fia_complaint_procedure",
+      "patterns": [
+        "how to lodge fia complaint",
+        "fia me complaint kese karein",
+        "fia helpline number",
+        "fia nr3c procedure",
+        "report cyber crime step by step",
+        "complaints fia gov pk",
+        "fia complaint status",
+        "where is fia cyber crime office"
+      ],
+      "responses": [
+        "**FIA NR3C me Cybercrime Report karne ka Step-by-Step Tareeqa:**\n\n1. **Online Method:** Official website **https://complaints.fia.gov.pk** par jayein, apna CNIC, mobile number, aur incident ki tafseel likhein.\n2. **Evidence Upload:** Chat screenshots, URLs, payment receipts, ya audio clips upload karein.\n3. **Tracking Number:** Submission ke baad aapko ek tracking number (e.g. `CC-XXXXX`) SMS ke zariye milta hai.\n4. **Physical Submission (Fastest):** Agar emergency ho, toh apne nearest FIA Cyber Crime Reporting Center ja kar written application aur evidence submit karein.\n5. **UAN Helpline:** Kisi bhi guidance ke liye **1991** dial karein."
+      ],
+      "category": "Cybercrime"
+    },
+    {
+      "tag": "consumer_rights_defective_product",
+      "patterns": [
+        "kharab cheez bech di",
+        "defective product received",
+        "shopkeeper refused refund",
+        "seller not returning money",
+        "warranty claim rejected",
+        "fake product delivered",
+        "expired food sold",
+        "consumer rights in pakistan",
+        "dukaan daar wapis nahi kar raha"
+      ],
+      "responses": [
+        "Pakistani Consumer Protection Acts (e.g. **Punjab Consumer Protection Act 2005**, Sindh Consumer Protection Act) ke tehat har shehri ko haq hai ke usay sahi mayaar ki cheez aur khidmat milay:\n\n1. **Return & Refund ka Qanooni Haq:** Agar product defective, fake, ya expired hai, dukandaar 'Biki hui cheez wapis nahi hogi' nahi keh sakta (yeh statement qanoon ke tehat illegal hai).\n2. **Receipt (Rashid) Lazmi Hai:** Dukandaar se original cash receipt ya online order receipt mehfooz rakhein.\n3. **Next Step:** Dukandaar ko 15 din ka **Qanooni Notice (Legal Notice)** bhejein. Agar wo 15 din me masla hal na kare, toh aap Consumer Court me muft case daair kar sakte hain!"
+      ],
+      "category": "Consumer Rights"
+    },
+    {
+      "tag": "consumer_legal_notice_procedure",
+      "patterns": [
+        "how to file case in consumer court",
+        "consumer court process",
+        "15 days legal notice format",
+        "consumer court fees",
+        "do i need a lawyer for consumer court",
+        "consumer court punjab",
+        "how to send legal notice to seller",
+        "consumer court complaint form"
+      ],
+      "responses": [
+        "**Consumer Court me Case Daair Karne ka Asaan Tareeqa:**\n\n1. **Step 1 — 15 Days Legal Notice Bhejein:** Dukandaar/Company ko registered post (TCS / Pakistan Post with acknowledgement receipt) ke zariye 15 din ka legal notice bhejein, jis me defect aur refund/harjana ka mutalba ho.\n2. **Step 2 — Lawyer ki Zaroorat Nahi:** Consumer Court me **kisi mehngay wakeel (lawyer) ki zaroorat nahi hoti**. Aap khud plain paper par application likh kar pesh ho sakte hain.\n3. **Step 3 — No Court Fee:** Consumer Court me case daair karne ki koi adalti fees nahi hoti (Completely Free of Cost).\n4. **Time Limit (Limitation):** Nuqsan hone ke 30 din ke andar notice bhejna zaroori hai.\n5. **Result:** Court dukandaar par jurmana lagati hai aur consumer ko product ki qeemat samait zehni aziyat (damages) ka harjana dilwati hai."
+      ],
+      "category": "Consumer Rights"
+    },
+    {
+      "tag": "tenant_rental_rights",
+      "patterns": [
+        "tenant rights in pakistan",
+        "kirayedar ke haqooq",
+        "malik makan security deposit wapis nahi de raha",
+        "landlord security deposit issue",
+        "illegal eviction landlord",
+        "malik makan nikal raha hai",
+        "notice period for vacating house",
+        "rent increment rules",
+        "tenancy agreement rules"
+      ],
+      "responses": [
+        "**Pakistan Tenancy Laws (Rent Restriction Acts) ke tehat Kirayedar aur Malik Makan ke Haqooq:**\n\n1. **Written Agreement Lazmi Hai:** Qanoon ke tehat har kirayadari ka written agreement aur police verification hona lazmi hai.\n2. **Notice Period:** Malik makan kirayedar ko achanak be-dakhal nahi kar sakta. Standard qanooni notice period aam taur par **1 se 2 maah** hota hai (ya jo agreement me teh ho).\n3. **Security Deposit ki Wapsi:** Ghar khali karte waqt agar koi utility bills ya structure ka nuqsan na ho, toh malik makan security deposit foran wapis karne ka paband hai. Wapsi na karne par **Rent Tribunal / Special Judge Rent** me application daari ki ja sakti hai.\n4. **Kiraya Barhana (Rent Increment):** Aam taur par agreement me salana 10% izafay ki clause hoti hai. Malik makan be-ja har do maah baad kiraya nahi barha sakta."
+      ],
+      "category": "Property & Tenancy"
+    },
+    {
+      "tag": "traffic_rules_and_echallan",
+      "patterns": [
+        "traffic police fine",
+        "e-challan kaise check karein",
+        "traffic challan verification",
+        "driving without license penalty",
+        "can traffic police seize vehicle",
+        "e challan punjab online payment",
+        "traffic police stopped me",
+        "traffic signals violation fine"
+      ],
+      "responses": [
+        "**Traffic Laws & E-Challan ki Ahem Maloomat:**\n\n1. **Online E-Challan Checking:**\n   - Punjab: **echallan.psca.gop.pk** par gari ka registration number likh kar check karein.\n   - Islamabad: Islamabad Police Citizen Portal app.\n2. **Payment:** E-Challan JazzCash, EasyPaisa, 1Link ATM, ya Bank app se ada kiya ja sakta hai.\n3. **Police Checking me Documents:** Aapke paas: (a) Original Driving License, (b) Vehicle Registration Book / Smart Card, aur (c) Token Tax status hona zaroori hai.\n4. **Vehicle Seizure (Gari Band Karna):** Police har chotay jurm par gari zabt nahi kar sakti. Gari sirf ghair-qanooni number plate, tampered engine/chassis number, ya heavy rash driving/unlicensed driving par impound ki ja sakti hai."
+      ],
+      "category": "Traffic & Civil"
+    },
+    {
+      "tag": "police_arrest_and_citizen_rights",
+      "patterns": [
+        "police harassment",
+        "police ne giraftar kar liya",
+        "citizen rights on arrest",
+        "fir kaise darj karwayen",
+        "can police search house without warrant",
+        "police bribe maang rahi hai",
+        "police remand rules",
+        "24 hour magistrate rule",
+        "right to legal counsel"
+      ],
+      "responses": [
+        "**Constitution of Pakistan (Articles 9, 10, 14) ke tehat Aam Shehri ke Qanooni Haqooq:**\n\n1. **Right to Know Reason of Arrest (Art 10):** Giraftari ki soorat me police par lazmi hai ke wo aapko giraftari ki qanooni wajah bataye.\n2. **24-Hour Magistrate Rule (CrPC Section 61):** Police kisi bhi shakhs ko 24 ghantay se zyada bina Magistrate ke peshi aur remand ke custody me nahi rakh sakti.\n3. **Ghar ki Talashi (Search Warrant):** Police bina search warrant ya gazetted officer ki mojoodgi ke aam halat me ghar me daakhil nahi ho sakti (Section 103 CrPC ke tehat 2 moazzaz ahl-e-muhalla ka gawah hona lazmi hai).\n4. **FIR Darj Karwana:** Har sangeen jurm (Cognizable offence) ki FIR Police Station me muft darj karna SHO ki qanooni zimmadari hai under Section 154 CrPC.\n5. **Police Harassment / Bribery:** 15 par call karein ya DSP Complaint Cell / Anti-Corruption Establishment me report karein."
+      ],
+      "category": "Fundamental Rights"
+    },
+    {
+      "tag": "workplace_women_harassment",
+      "patterns": [
+        "workplace harassment",
+        "harassment at office",
+        "protection against harassment at workplace act",
+        "boss is harassing",
+        "complaint against colleague",
+        "wafaqi mohtasib harassment",
+        "federal ombudsman workplace harassment",
+        "harassment inquiry committee"
+      ],
+      "responses": [
+        "**Protection Against Harassment of Women at the Workplace Act 2010 (amended 2022):**\n\n1. **Inquiry Committee:** Har idaray (office, university, company) me 3-member Harassment Inquiry Committee (jis me kam az kam ek khatoon member ho) ka hona qanoonan lazmi hai.\n2. **Direct Ombudsman Approach:** Agar idara action na le ya inquiry fair na ho, victim barah-e-raast **Federal Ombudsman for Protection Against Harassment (FOSPAH)** ya Provincial Mohtasib ke paas complaint file kar sakta/sakti hai.\n3. **Website:** **www.fospah.gov.pk** par online complaint darj ki ja sakti hai.\n4. **Strict Confidentiality:** Qanoon ke mutabiq shikayat-kuninda ka naam aur pehchan mukammal tor par safe aur confidential rakhi jaati hai."
+      ],
+      "category": "Workplace & Women Rights"
+    },
+    {
+      "tag": "emergency_helplines",
+      "patterns": [
+        "emergency helpline numbers",
+        "madad ke liye helpline",
+        "police helpline",
+        "women helpline",
+        "child protection number",
+        "fia contact number",
+        "helplines in pakistan",
+        "important phone numbers"
+      ],
+      "responses": [
+        "📞 **Pakistan Official Emergency & Legal Helplines:**\n\n- 🚨 **Police Emergency:** `15`\n- 🛡️ **FIA Cybercrime Helpline:** `1991`\n- 🛣️ **National Highway & Motorway Police:** `130`\n- 🚑 **Rescue Ambulance & Fire:** `1122`\n- 👩 **Women Helpline (Punjab):** `1043` / **Federal:** `1099`\n- 👶 **Child Protection & Welfare Helpline:** `1121`\n- 🏛️ **Prime Minister Citizen's Portal (PCP):** Mobile App\n- ⚖️ **Federal Ombudsman (Wafaqi Mohtasib):** `1055`"
+      ],
+      "category": "Helplines"
+    },
+    {
+      "tag": "right_to_information_rti",
+      "patterns": [
+        "right to information",
+        "rti act pakistan",
+        "how to get government information",
+        "public records request",
+        "punjab transparency and rti act",
+        "sarkari record kaise maangein"
+      ],
+      "responses": [
+        "**Right to Information (RTI) Laws in Pakistan (Article 19-A of Constitution):**\n\n1. **Aam Shehri Ka Haq:** Har shehri kisi bhi sarkari mehkamay (Education, Health, Municipal, Police) se public funds, projects, aur tenders ka hisaab maang sakta hai.\n2. **Kese Apply Karein:** Sada kaghaz par Public Information Officer (PIO) ke naam application likhein aur required maloomat maangein.\n3. **Timeframe:** Qanoonan department 14 din ke andar jawab dene ka paband hai.\n4. **Agar Jawab Na Milay:** Aap Information Commission (e.g. Punjab Information Commission / Pakistan Information Commission) me appeal daakhil kar sakte hain."
+      ],
+      "category": "Fundamental Rights"
+    },
+    {
+      "tag": "bounced_cheque_law",
+      "patterns": [
+        "cheque bounce ho gaya",
+        "dishonoured cheque law",
+        "section 489f",
+        "489 f ppc",
+        "someone gave fake cheque",
+        "bounced check legal action"
+      ],
+      "responses": [
+        "**Dishonoured / Bounced Cheque Law (Section 489-F Pakistan Penal Code):**\n\n1. **Criminal Offence:** Be-imani se aisa cheque dena jo bank me balance na hone ki wajah se dishonour ho jaye, Pakistan me ek **criminal offence** hai jiski saza 3 saal tak qaid aur jurmana hai.\n2. **Bank Memo:** Cheque bounce hone par bank se official **Dishonour Slip/Memo** (wajah ke sath) haasil karein.\n3. **Legal Procedure:**\n   - Cheque jari karne wale ko 15-day Legal Notice bhejein.\n   - Relevant Police Station me Section 489-F PPC ke tehat FIR darj karwayen.\n   - Ya recovery ke liye Civil Court me Summary Suit under Order 37 CPC daakhil karein."
+      ],
+      "category": "Financial Law"
+    },
+    {
+      "tag": "fallback",
+      "patterns": [],
+      "responses": [
+        "Mujhe afsos hai, main aapka sawal poori tarah nahi samajh saka. Aap mujhse Pakistan ke **Consumer Court, Online Cybercrime (FIA), Tenant/Kirayedar Laws, Traffic E-Challan, ya Police Arrest Rights** ke baare me pooch sakte hain. Barahe karam apna sawal aasan alfaz me dobara likhein.",
+        "I couldn't quite find a matching legal guidance topic for your query. You can ask about: 'How to file an FIA cybercrime complaint', '15 days legal notice format', 'Tenant security deposit rules', or 'Police arrest rights'."
+      ],
+      "category": "General"
+    }
+  ]
+}
